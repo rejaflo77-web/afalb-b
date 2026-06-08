@@ -1,3 +1,4 @@
+
 <?php
 
 $host = "sql213.infinityfree.com";
@@ -48,5 +49,4 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
-
 ?>

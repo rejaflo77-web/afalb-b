@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body div{
     width: 100%;
     max-width: 1010px;
@@ -8,4 +9,16 @@ body div{
     justify-content: center;
     align-items: center;
     padding: 10px;
+=======
+body div{
+    width: 100%;
+    max-width: 1010px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+>>>>>>> 49ec6e6a492d2ecd84c4245344b0d71940f40bdc
 }
