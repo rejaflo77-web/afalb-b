@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pr-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="overlay">
+    <form id="loginform">
+        <legend>Login</legend>
+        <input type="text" name="usuario" id="usuario" placeholder="usuario"><br>
+        <input type="password" name="senha" id="senha" placeholder="senha">
+        <div>
+        <button type="submit">Entrar</button>
+        <button type="reset">Cancelar</button>
+        </div>
+    </form>
+    </div>
+    <script>
+        document.getElementById("loginform").addEventListener("submit", function(event){
+            event.preventDefault();
+
+            let usuario = document.getElementById("usuario").value;
+            let senha = document.getElementById("senha").value;
+
+
+            if(usuario === "afalb" && senha === "2022B"){
+                window.location.href = "bloqForm.html";
+                
+            }
+            else{
+                alert("usuario ou a senha incorreto!")
+            }
+        })
+    </script>
+</body>
+</html>
