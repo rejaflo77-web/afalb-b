@@ -1,22 +1,23 @@
-<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f4c81, #2b7a78);
 }
 
 .server{
-
-    position: fixed;
-    top: 0;
-    left: 0;
+    
     width: 100%;
     height: 100%;
-    background-color: dimgray;
-
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
 }
 
 .server button{
@@ -30,14 +31,13 @@ form{
     padding: 10px;
     border-radius: 10px;
     width: 700px;
-
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
 input, button{
-    padding: 10px; 
+    padding: 5px; 
     display: flex; 
     flex-direction: column;
     width: 100%;
@@ -53,7 +53,7 @@ input, button{
      justify-content: center;
 }
 
-.nao, .sim{
+.sim{
     position: relative;
     right: 15px;
     padding-top: 2px;
@@ -62,84 +62,26 @@ input, button{
 .divisor{
     display: flex;
     flex-direction: row;
+    gap: 5px;
+    padding-left: 8px;
 }
 
 .magem{
-    width: 130px;
+    
+    width: 200px;
     height: auto;
     border-radius: 50%;
-    padding: 20px;
-}
-=======
-
-body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.server{
-
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: dimgray;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.server button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-form{
-    background-color: wheat;
     padding: 10px;
-    border-radius: 10px;
-    width: 700px;
-
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
 }
 
-input, button{
-    padding: 10px; 
-    display: flex; 
-    flex-direction: column;
-    width: 100%;
-    max-width: 400px;
+legend {
+    text-align: center;
+    color: #2b7a78;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.radio{
-    display: flex; 
-    flex-direction: row;
-     max-width: 150px;
-     min-height: 50px;
-     align-items: center;
-     justify-content: center;
+p{
+    color: #2b7a78;
+    padding-left: 8px;
 }
-
-.nao, .sim{
-    position: relative;
-    right: 15px;
-    padding-top: 2px;
-}
-
-.divisor{
-    display: flex;
-    flex-direction: row;
-}
-
-.magem{
-    width: 130px;
-    height: auto;
-    border-radius: 50%;
-    padding: 20px;
-}
->>>>>>> 49ec6e6a492d2ecd84c4245344b0d71940f40bdc
